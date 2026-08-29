@@ -1,16 +1,16 @@
-const getTitle = () => {
+export const getTitle = () => {
     const title = document.querySelector('.title');
     return title.textContent;
 }
-const getDescription = () => {
+export const getDescription = () => {
     const description = document.querySelector('.about');
     return description.innerText;
 }
-const getPlans = () => {
+export const getPlans = () => {
     const plans = document.querySelector('.plans');
     return plans.innerHTML;
 }
-const getGoal = () => {
+export const getGoal = () => {
     const goal = document.querySelector('.goal');
     return goal.outerHTML;
 }
