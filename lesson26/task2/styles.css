@@ -1,0 +1,17 @@
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-size: 35px;
+}
+.counter__button{
+    width:40px;
+    height:40px;
+    border-radius: 7px;
+}
+.counter__value{
+    width:40px;
+    height:40px;
+    text-align: center;
+}

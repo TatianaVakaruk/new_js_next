@@ -1,6 +1,0 @@
-{
-    "editor.lightbulb.enabled": "off",
-    "editor.suggestOnTriggerCharacters": false,
-    "editor.suggest.selectionMode": "never",
-    "editor.acceptSuggestionOnEnter": "off"
-}
