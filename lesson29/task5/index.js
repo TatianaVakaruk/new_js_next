@@ -1,4 +1,4 @@
-const addImageV2 = url => {
+export const addImageV2 = url => {
   // put your code here
   const p = new Promise((resolve, reject) => { 
     const img = document.createElement('img');
