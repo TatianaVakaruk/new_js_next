@@ -16,10 +16,9 @@ const checkInputs = () => {
 inputElem.forEach(input => input.addEventListener('input', checkInputs));
 
 
-const data = Object.fromEntries(new FormData(formElem));
-
 const sendData = (e) => {
     e.preventDefault();
+    const data = Object.fromEntries(new FormData(formElem));
     return fetch(formUrl, {
         method: 'POST',
         headers: {
