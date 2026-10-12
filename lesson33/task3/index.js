@@ -26,21 +26,13 @@ const sendData = (e) => {
             'Content-Type': 'application/json;charset=utf-8'
         },
         body: JSON.stringify(data)
-    }).then(() => {
-        return fetch(formUrl); 
     })
     .then(response => response.json())
     .then(serverData => {
         alert(JSON.stringify(serverData));
+        formElem.reset();
     });
     
 }
 
 buttonElem.addEventListener('click', sendData);
-
-const clearData = () => {
-    formElem.reset();
-}
-buttonElem.addEventListener('click', clearData);
-
-
